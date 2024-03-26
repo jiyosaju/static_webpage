@@ -1,0 +1,319 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background:linear-gradient(45deg, yellow 30%,red 50%)
+
+
+    
+}
+.header{
+    width: 100%;
+    height:150px;
+    background:linear-gradient(50deg, green,blue);
+    
+    
+}
+
+#ph{
+    cursor: pointer;
+    color: black;
+    
+    
+    
+}
+#z{
+    text-decoration: none;
+    color: black;
+    
+    
+    
+}
+ul{
+    list-style-type: none;
+    
+}
+#zz{
+    margin-top: -23px;
+    margin-left: 160px;
+}
+.litwo{
+    float: left;
+    border-right: 1px solid red;
+     
+     
+}
+.litwo a{
+    display:block;
+    text-align: center;
+    font-size: 20px;
+    color: lime;
+    text-transform: capitalize;
+    padding: 20px;
+    font-style: italic;
+    text-decoration: none;
+    
+    
+    
+}
+.divtwo{
+    margin-left: 400px;
+    position: fixed;
+    
+
+    
+}.litwo a:hover{
+    color: black;
+    background-color: cadetblue;
+}
+.lithree{
+    float: left;
+
+}
+.lithree a{
+    display: block;
+    padding: 10px; 
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 20px;
+}
+.divthree{
+    margin-left: 350px;
+    
+    }
+.lithree a:hover{
+   background-color: cadetblue;
+}
+.center{
+    width: 100%;
+    height: 500px;
+    margin-top: -16px;
+    background-image: url(image/b\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 3s;
+    
+}
+.center:hover{
+    background-image: url(image/imag\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:  scale(0.9);
+}
+
+.divfour{
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 1000px;
+    height: 80px;
+    background-color: rgb(207, 157, 95);
+    text-align: center;
+    padding: 10px;
+    
+
+}
+form{
+    margin-top: 10px;
+}
+label{
+    font-size: large;
+    text-transform: capitalize;
+}
+button{
+    background-color: rgb(54, 81, 26);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.guest{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: chartreuse;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+.main{
+    background-color: rgb(54, 81, 26);
+    margin-top: -20;
+}
+.imgmain{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    height: 700px;
+    gap: 10px;
+    padding: 10px;
+    
+    
+    
+}
+
+.imgmain>div{
+    border:5px solid black ;
+}
+.i{
+    background-image: url(image/i2.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.9s;
+    
+
+}
+
+.im{
+    background-image: url(image/i3.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+.ima{
+    background-image: url(image/i5.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+.imag{
+    background-image: url(image/i6.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+.image{
+    background-image: url(image/ig1.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+.imagee{
+    background-image: url(image/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+.i:hover{
+    transform: scale(0.9);
+    
+}
+.im:hover{
+    transform: scale(0.9);
+    
+}
+.ima:hover{
+    transform: scale(0.9);
+    
+}
+.imag:hover{
+    transform: scale(0.9);
+    
+}
+.image:hover{
+    transform: scale(0.9);
+    
+}
+.imagee:hover{
+    transform: scale(0.9);
+    
+}
+.moreclicks{
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: chartreuse;
+    text-align: center;
+    width: 260px;
+    height: 50px;
+    cursor: pointer;
+    
+    text-transform: uppercase;
+    margin:0px auto;
+    margin-top: 10px;
+    
+
+}.moreclicks:hover{
+    background-color: darkorange;
+}
+.accommodation>h1{
+    text-transform: capitalize;
+    color: olive;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.accommodation>p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+    color: magenta;
+}
+.accomain{
+    height: 600px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgb(108, 108, 220);
+
+    
+    
+}
+
+.accomain >div{
+    border: 4px solid gold;
+    border-radius: 10px;
+    
+    
+}
+img{
+    width: 100%;
+    cursor: pointer;
+    transition: 1.5s ease-in;
+}
+img:hover{
+    transform: scale(0.8);
+    
+}
+.text{
+    width: 250px;
+    height: 130px;
+    margin: 0px auto;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+h5{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #ff0000;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
+}
+span{
+    margin-left:65px;
+    
+}
+.view{
+    border: 3px solid black;
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+.viewr{
+    text-align: center;
+    margin-top: 6px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 0;
+}
+.view:hover{
+    background-color: white;
+}
+
+
+
